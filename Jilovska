@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prodej bytu – Praha</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      color: #333;
+    }
+    .info {
+      margin: 1rem 0;
+      line-height: 1.6;
+    }
+    .contact {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #eee;
+      border-left: 4px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Prodej světlého bytu 2+kk v Praze</h1>
+  </header>
+  <div class="container">
+    <img src="byt-foto1.jpg" alt="Obývací pokoj">
+    <img src="byt-foto2.jpg" alt="Kuchyň">
+    <img src="byt-foto3.jpg" alt="Ložnice">
+
+    <h2>Popis nemovitosti</h2>
+    <div class="info">
+      Nabízíme k prodeji slunný a velmi dobře řešený byt 2+kk o velikosti 54 m², nacházející se ve 3. patře moderního bytového domu v klidné části Prahy. Byt je po rekonstrukci, má novou kuchyň, koupelnu, podlahy i dveře. Ideální jako startovací bydlení nebo investice.
+    </div>
+
+    <h2>Hlavní výhody</h2>
+    <ul>
+      <li>Skvělá dopravní dostupnost (metro, tramvaj do 5 min)</li>
+      <li>Balkón orientovaný do vnitrobloku</li>
+      <li>Sklepní kóje a možnost parkování</li>
+      <li>Nízké měsíční náklady</li>
+    </ul>
+
+    <div class="contact">
+      <h2>Kontakt</h2>
+      <p>Máte zájem o prohlídku nebo více informací?</p>
+      <p>📞 +420 777 123 456</p>
+      <p>✉️ info@prodej-bytu.cz</p>
+    </div>
+  </div>
+</body>
+</html>
